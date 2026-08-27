@@ -1,8 +1,88 @@
+@font-face {
+  font-family: 'CursedTimerULiL';
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('CursedTimer.woff2') format('woff2');
+}
+
 body {
     margin: 0;
+    background: #1B244A;
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.score-div > h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #EEEEEE;
+    margin: 68px 0 21px 0;
+}
+
+.score-div {
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scoreboard {
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    font-family: 'CursedTimerULiL', monospace;
+    color: #F94F6D;
+    font-size: 90px;
+    margin: 0;
+}
+
+.score-editors {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 26px;
+}
+
+.buttons {
+    border: 2px solid #9AABD8;
+    background: transparent;
+    color: #9AABD8;
+}
+
+.editor-btn {
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-size: 18px; 
+    font-family: 'CursedTimerULiL', monospace;
+}
+
+.editor-btn:hover {
+    background: #EEEEEE;
+    color: #080001;
+    border-color: #EEEEEE;
+}
+
+.editor-btn:active {
+    background: transparent;
+    color: #EEEEEE;
+    border-color: #EEEEEE;
+}
+
+#newgame-btn {
+    display: block;
+    margin: 50px auto 0 auto;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    padding: 10px 20px;
 }
