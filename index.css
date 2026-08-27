@@ -66,7 +66,7 @@ body {
     font-family: 'CursedTimerULiL', monospace;
 }
 
-.editor-btn:hover {
+/* .editor-btn:hover {
     background: #EEEEEE;
     color: #080001;
     border-color: #EEEEEE;
@@ -76,13 +76,25 @@ body {
     background: transparent;
     color: #EEEEEE;
     border-color: #EEEEEE;
-}
+} */
 
 #newgame-btn {
     display: block;
     margin: 50px auto 0 auto;
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 15px;
-    padding: 10px 20px;
+    border-radius: 41px;
+    padding: 9px 26px;
+}
+
+.buttons:hover {
+    border-color: #DADADA;
+    background: #DADADA;
+    color: #1B244A;
+}
+
+.buttons:active {
+    border-color: #DADADA;
+    background: transparent;
+    color: #DADADA;
 }
