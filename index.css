@@ -66,18 +66,6 @@ body {
     font-family: 'CursedTimerULiL', monospace;
 }
 
-/* .editor-btn:hover {
-    background: #EEEEEE;
-    color: #080001;
-    border-color: #EEEEEE;
-}
-
-.editor-btn:active {
-    background: transparent;
-    color: #EEEEEE;
-    border-color: #EEEEEE;
-} */
-
 #newgame-btn {
     display: block;
     margin: 50px auto 0 auto;
