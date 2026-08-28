@@ -75,14 +75,14 @@ body {
     padding: 9px 26px;
 }
 
-.buttons:hover {
-    border-color: #DADADA;
-    background: #DADADA;
-    color: #1B244A;
+.editor-btn:active {
+    width: 43px;
+    height: 43px;
+    margin: 1px;
+    font-size: 17px;
 }
 
-.buttons:active {
-    border-color: #DADADA;
-    background: transparent;
-    color: #DADADA;
+#newgame-btn:active {
+    margin: 51px auto 0 auto;
+    font-size: 49px;
 }
