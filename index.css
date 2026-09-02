@@ -69,7 +69,7 @@ body {
     margin: 0 2px 0 2px;
 }
 
-#newgame-btn {
+.newgame-btn {
     display: block;
     margin: 54px auto 0 auto;
     font-size: 50px;
@@ -83,7 +83,7 @@ body {
     box-shadow: 0 0 6px 4px #9AABD8;
 }
 
-#newgame-btn:hover {
+.newgame-btn:hover {
     box-shadow: 0 0 13px 4px #9AABD8;
 }
 
@@ -91,6 +91,6 @@ body {
     box-shadow: 0 0 0 1px #555e77;
 }
 
-#newgame-btn:active {
+.newgame-btn:active {
     box-shadow: 0 0 0 1px #525b71;
 }
