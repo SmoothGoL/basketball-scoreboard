@@ -53,36 +53,44 @@ body {
 }
 
 .buttons {
-    border: 2px solid #9AABD8;
+    /* border: 2px solid #9AABD8; */
     background: transparent;
     color: #9AABD8;
+    border: none;
 }
 
 .editor-btn {
     border-radius: 5px;
-    width: 45px;
-    height: 45px;
+    width: 41px;
+    height: 41px;
     font-size: 18px; 
     font-family: 'CursedTimerULiL', monospace;
+    box-shadow: 0 0 0 2px #9AABD8;
+    margin: 0 2px 0 2px;
 }
 
 #newgame-btn {
     display: block;
-    margin: 50px auto 0 auto;
+    margin: 54px auto 0 auto;
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 41px;
     padding: 9px 26px;
+    box-shadow: 0 0 0 2px #9AABD8;
+}
+
+.editor-btn:hover {
+    box-shadow: 0 0 6px 4px #9AABD8;
+}
+
+#newgame-btn:hover {
+    box-shadow: 0 0 13px 4px #9AABD8;
 }
 
 .editor-btn:active {
-    width: 43px;
-    height: 43px;
-    margin: 1px;
-    font-size: 17px;
+    box-shadow: 0 0 0 1px #555e77;
 }
 
 #newgame-btn:active {
-    margin: 51px auto 0 auto;
-    font-size: 49px;
+    box-shadow: 0 0 0 1px #525b71;
 }
