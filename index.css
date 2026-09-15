@@ -79,18 +79,22 @@ body {
     box-shadow: 0 0 0 2px #9AABD8;
 }
 
-.editor-btn:hover {
+.editor-btn:hover,
+.editor-btn:focus-visible {
     box-shadow: 0 0 6px 4px #9AABD8;
 }
 
-.newgame-btn:hover {
+.newgame-btn:hover,
+.newgame-btn:focus-visible {
     box-shadow: 0 0 13px 4px #9AABD8;
 }
 
 .editor-btn:active {
-    box-shadow: 0 0 0 1px #555e77;
+    box-shadow: 0 0 0 2px #9AABD8;
+    transform: scale(0.93);
 }
 
 .newgame-btn:active {
-    box-shadow: 0 0 0 1px #525b71;
+    box-shadow: 0 0 0 2px #9AABD8;
+    transform: scale(0.985);
 }
