@@ -89,16 +89,13 @@ body {
     }
 
     .score-editors {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
     .editor-btn {
-        display: block;
         width: 100%;
-    }
-
-    .editor-btn:not(:last-child) {
-        margin-bottom: 10px;
     }
 }
 
