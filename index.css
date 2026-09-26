@@ -117,6 +117,7 @@ body {
 @media (max-width: 370px) {
     .newgame-btn {
         width: 88.9vw;
+        font-size: 36px;
     }
 }
 
