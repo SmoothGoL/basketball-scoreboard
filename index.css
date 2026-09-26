@@ -22,11 +22,17 @@ body {
     margin: 68px 0 21px 0;
 }
 
-.score-div {
-    margin: 0 50px;
+.score-div:first-child {
+    margin-right: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media (max-width: 480px) {
+    .score-div:first-child {
+        margin-right: 3vw;
+    }
 }
 
 .scoreboard {
@@ -36,6 +42,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 370px) {
+    .scoreboard {
+        width: 44.59vw;
+    }
 }
 
 .score {
