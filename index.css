@@ -15,11 +15,12 @@ body {
     justify-content: center;
 }
 
-.score-div > h3 {
+.team {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     color: #EEEEEE;
     margin: 68px 0 21px 0;
+    text-align: center;
 }
 
 .score-div:first-child {
@@ -82,6 +83,25 @@ body {
     margin: 0 2px 0 2px;
 }
 
+@media (max-width: 320px) {
+    .team {
+        font-size: 30px;
+    }
+
+    .score-editors {
+        display: block;
+    }
+
+    .editor-btn {
+        display: block;
+        width: 100%;
+    }
+
+    .editor-btn:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
 .newgame-btn {
     display: block;
     margin: 54px auto 0 auto;
@@ -91,24 +111,33 @@ body {
     padding: 9px 26px;
     box-shadow: 0 0 0 2px #9AABD8;
     border: 2px solid transparent;
+    width: 
 }
 
-.editor-btn:hover,
-.editor-btn:focus-visible {
-    box-shadow: 0 0 6px 4px #9AABD8;
+@media (max-width: 370px) {
+    .newgame-btn {
+        width: 88.9vw;
+    }
 }
 
-.newgame-btn:hover,
-.newgame-btn:focus-visible {
-    box-shadow: 0 0 13px 4px #9AABD8;
-}
+@media (hover: hover) {
+    .editor-btn:hover,
+    .editor-btn:focus-visible {
+        box-shadow: 0 0 6px 4px #9AABD8;
+    }
 
-.editor-btn:active {
-    /* box-shadow: 0 0 0 2px #9AABD8; */
-    transform: scale(0.9);
-}
+    .newgame-btn:hover,
+    .newgame-btn:focus-visible {
+        box-shadow: 0 0 13px 4px #9AABD8;
+    }
 
-.newgame-btn:active {
-    /* box-shadow: 0 0 0 2px #9AABD8; */
-    transform: scale(0.965);
+    .editor-btn:active {
+        /* box-shadow: 0 0 0 2px #9AABD8; */
+        transform: scale(0.9);
+    }
+
+    .newgame-btn:active {
+        /* box-shadow: 0 0 0 2px #9AABD8; */
+        transform: scale(0.965);
+    }
 }
